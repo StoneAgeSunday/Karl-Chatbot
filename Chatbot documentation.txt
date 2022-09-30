@@ -1,0 +1,59 @@
+Documentation for chatbot
+
+The algorithm used in this application involves a cascade of else-if statements that check 
+whether an input string is a certain kind of sentence, and then issues a response that is 
+intended to give the impression that the machine has listened to the user. The processing of 
+the user's input is case sensitive.
+
+The chatbot is named Karl, and its domain is politics. Following are examples of the types of exchanges possible with 
+this chatbot:
+		User: I dislike the President
+		Karl: WHAT'S SO BAD ABOUT THE PRESIDENT?
+
+		User: Politicians are too corrupt
+		Karl: WHAT HAS MADE POLITICIANS SO CORRUPT?
+
+		User: Politicians are too mendacious
+		Karl: THERE ARE SITUATIONS WHERE BEING MENDACIOUS IS BENEFICIAL
+
+		User: Third world countries are very poor
+		Karl: THIRD WORLD COUNTRIES ARE VERY POOR?
+		User: Conservatives think foreigners are bad
+		Karl: DO YOU AGREE WITH CONSERVATIVES?
+
+		User: We are an exceptional nation
+		Karl: WE ARE AN EXCEPTIONAL NATION?
+
+		User: I am well-informed
+		Karl: YOU ARE WELL-INFORMED?
+
+		User: Communists support the ANC
+		Karl: COMMUNISTS FAVOURS THE ANC? WHY?
+
+		User: America has good infrastructure
+		Karl: WHAT HAS MADE AMERICA SO FORTUNATE?
+
+		User: There is too much crime here
+		Karl: HOW CAN EXCESS CRIME HERE BE ADDRESSED?
+
+		User: There isn't enough economic equality
+		Karl: WHAT CAN BE DONE TO IMPROVE ECONOMIC EQUALITY?
+
+		User: China shouldn't steal intellectual property
+		Karl: WHY SHOULDN'T CHINA DO THAT?
+
+		User: There is tension between these traditional allies
+		Karl: HOW DID THIS TENSION START?
+
+		User: Australia has very good relations with Europe
+		Karl: HAVE RELATIONS ALWAYS BEEN VERY GOOD?
+
+		User: Are you a terrorist?
+		Karl: I'M NOT SURE. WHAT DO YOU THINK?
+
+		User: Donald Trump is so rich
+		Karl: WHAT HAS MADE TRUMP SO RICH?
+
+
+To end the conversation, type "Goodbye".
+To run the chatbot, execute the file Chatbot.py
